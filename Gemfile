@@ -48,6 +48,5 @@ gem 'activeadmin', '~> 1.0.0.pre4'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
 gem 'devise'
-gem 'rails_12factor', '~> 0.0.3', group: :production
-
+gem 'rails_12factor', '~> 0.0.3'
 gem 'pg'

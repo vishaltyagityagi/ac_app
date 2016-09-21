@@ -60,8 +60,8 @@ ActiveRecord::Schema.define(version: 20160830102025) do
     t.string   "subject"
     t.text     "message"
     t.text     "your_description"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.text     "Whats_problem"
   end
 
